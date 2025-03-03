@@ -45,3 +45,6 @@ mlruns/
 
 # Auto-generated file
 /tuning/_version.py
+
+# Data
+data/
