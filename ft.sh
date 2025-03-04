@@ -1,7 +1,7 @@
 # if you want to use one GPU on multi-gpu machine
 export CUDA_VISIBLE_DEVICES=0
 
- MODEL_PATH=ibm-granite/granite-3.2-2b-instruct # Huggingface model id or path to a checkpoint
+ MODEL_PATH=base_models/granite-3.2-2b-instruct # Huggingface model id or path to a checkpoint
  TRAIN_DATA_PATH=data/trans.json # Path to the dataset
                   # contains data in single sequence {"output": "### Input: text \n\n### Response: text"}
  OUTPUT_PATH=out # Path to the output folder where the checkpoints are saved

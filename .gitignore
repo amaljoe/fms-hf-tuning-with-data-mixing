@@ -46,6 +46,8 @@ mlruns/
 # Auto-generated file
 /tuning/_version.py
 
-# Finetuning data and outputs
+# misc, model, data, outputs etc
 data/
 out/
+base_models/
+cmds.txt
