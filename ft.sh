@@ -3,8 +3,8 @@ export CUDA_VISIBLE_DEVICES=0
 accelerate launch \
   --config_file fixtures/accelerate_fsdp_defaults.yaml \
   tuning/sft_trainer.py \
-  --model_name_or_path ibm-granite/granite-3.2-2b-instruct \
-  --training_data_path coco_chat.jsonl \
+  --model_name_or_path base_models/granite-3.2-2b-instruct \
+  --training_data_path data/trans.jsonl \
   --output_dir ./output \
   --num_train_epochs 3 \
   --per_device_train_batch_size 4 \
