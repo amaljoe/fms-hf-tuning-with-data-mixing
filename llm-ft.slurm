@@ -14,7 +14,7 @@ module load mldl_modules/miniconda
 
 conda init
 source ~/.bashrc
-conda activate fms-hf-tuning
+conda activate base
 
 # Navigate to project directory
 cd /home/IITB/cfilt/24m0797/fms-hf-tuning-with-data-mixing
