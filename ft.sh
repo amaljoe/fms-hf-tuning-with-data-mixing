@@ -8,7 +8,7 @@ python tuning/sft_trainer.py  \
 --training_data_path data/trans.jsonl \
 --output_dir ./output \
 --num_train_epochs 3 \
---per_device_train_batch_size 4 \
+--per_device_train_batch_size 16 \
 --gradient_accumulation_steps 4 \
 --learning_rate 1e-4 \
 --torch_dtype bfloat16 \

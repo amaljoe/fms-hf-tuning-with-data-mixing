@@ -19,5 +19,10 @@ conda activate base
 # Navigate to project directory
 cd /home/IITB/cfilt/24m0797/fms-hf-tuning-with-data-mixing
 
+nvidia-smi --query-gpu=timestamp,utilization.gpu,memory.used \
+           --format=csv -l 1 > gpu_metrics.csv &
+
 # Run fine-tuning script
 ./ft.sh
+
+pkill -f "nvidia-smi"
