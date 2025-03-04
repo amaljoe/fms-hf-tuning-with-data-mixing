@@ -51,3 +51,4 @@ data/
 out/
 base_models/
 cmds.txt
+.log
