@@ -28,7 +28,6 @@ docstring_parser==0.16
 executing==2.2.0
 fastjsonschema==2.21.1
 filelock==3.17.0
-fms-hf-tuning @ file:///Users/amaljoe/Desktop/Workspace/Research/fms-hf-tuning
 fqdn==1.5.1
 frozenlist==1.5.0
 fsspec==2024.6.1
