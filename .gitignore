@@ -52,3 +52,4 @@ out/
 base_models/
 cmds.txt
 *.log
+/.ipynb_checkpoints/
